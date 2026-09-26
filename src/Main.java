@@ -51,7 +51,7 @@ void main() {
         if (i == 0) {
             System.out.println(arr[i]);
         } else {
-            System.out.println(arr[i] + " ,");
+            System.out.println(arr[i] + ", ");
         }
     }
     System.out.println();
@@ -60,7 +60,7 @@ void main() {
         if (i == 0) {
             System.out.println(arr1[i]);
         } else {
-            System.out.println(arr[i] + ", ");
+            System.out.println(arr1[i] + ", ");
         }
     }
     System.out.println();
@@ -79,7 +79,7 @@ void main() {
     System.out.println("Задача 4");
     for (int i = 0; i < arr.length; i++) {
         if (arr[i] % 2 != 0) {
-            arr[1] = arr[i] + 1;
+            arr[i] = arr[i] + 1;
         }
     }
     System.out.println(Arrays.toString(arr));
